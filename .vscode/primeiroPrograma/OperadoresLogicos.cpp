@@ -42,6 +42,8 @@ int main() {
 
    //operaqdor Ternario
    (media >= 5 && freq > 75) ? cout << "Aprovado" : cout << "Reprovado";
+   // o corpo de um if ternario é definido da seguinte forma:
+   // (Condicoes) ? if : else
 
 
     return 0;
