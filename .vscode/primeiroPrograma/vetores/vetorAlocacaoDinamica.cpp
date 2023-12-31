@@ -9,7 +9,7 @@ int main() {
     cout << "Digite o tamanho do vetor" << endl;
     cin >> tamanho;
 
-    int* vetor = new int[tamanho];// uso o new int, para que no decorrer da compilacao para que em tempo de execucao possa-se ter o tamanho do vetor e reservar o espaco, alem de poder deletar objetos para disponibiliar memoria para outras situacoes   
+    int* vetor = new int[tamanho]; 
     
     for (int i = 1; i < tamanho ; i++) {
          cout << "Digite o elemento  " << i+1 << "do vetor: " << endl; 
